@@ -37,7 +37,7 @@ Through this documentation, you will learn the basics of GitHub and how to work 
 <p>Navigating through GitHub can be very intimidating, so here are a few guidelines to help you getting familiar with GitHub interface.</p>
 
 
-![GitHub Respository Files](/gitHub//assets/images/gitHub_repositoryFiles.jpg)
+![GitHub Respository Files](assets/images/gitHub_repositoryFiles.jpg)
 
 <p> 
 
