@@ -1,6 +1,11 @@
 # artfxLillePipeline_docs
 Centralized long-term documentation (not promotion specific)
 
+# Workflow Documentation
+<p>
+
+This section contains all the documentation regarding general workflow practices, naming conventions etc...
+
 # Softwares Documentation
 <p>
 

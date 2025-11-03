@@ -47,9 +47,9 @@ Otherwise, the workflow integration plugin won't be recognized by DaVinci Resolv
 Follow those steps to install ARRI Reference Tool Bridge for DaVinciResolve Studio :
 </p>
 
-1. Go to the directory : `C:\Program Data\Blackmagic Design\DaVinci Resolve\Support`.
+1. Go to the directory : `C:\ProgramData\Blackmagic Design\DaVinci Resolve\Support`.
    
-   > If you can't see the folder `Program Data` in your `C:\` drive, check those options :
+   > If you can't see the folder `ProgramData` in your `C:\` drive, check those options :
    >
    > - **On Windows**
    >    
@@ -73,7 +73,7 @@ Before running the tool, you must have a DaVinci Resolve **project** opened and 
 > Creating a new timeline for the ARRI Reference tool is advised. You can duplicate your editing timeline by : <br>
 > `Right Click on timeline > Duplicate timeline`
 
-On your timeline, you must have at least **three video tracks, exactly named** `Plate_01, Plate_02, Plate_03` *(cf. see below)* with all your editing inside.</p>
+On your timeline, you must have at maximum **three video tracks, exactly named** `Plate_01, Plate_02, Plate_03` *(cf. see below)* with all your editing inside.</p>
 
 <img src = "assets/images/daVinci_timelineSetup_001.jpg" width=700> <br>
 
