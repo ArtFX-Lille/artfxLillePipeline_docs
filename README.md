@@ -11,7 +11,8 @@ This section contains all the documentation regarding general workflow practices
 
 In this section, you will get all the documentation regarding workflow specific to each softwares and custom tools made by the students.
 
+[Color Workflow](workflows/color_workflow/COLOR_WORKFLOW.md)
+
 ## DaVinci Resolve Studio
 
 [ARRI Reference Tool Bridge](daVinciResolve/arriReferenceToolBridge/ARRIREF_DOCS.md) <br>
-[DaVinci Resolve Grading Workflow] **WIP**
