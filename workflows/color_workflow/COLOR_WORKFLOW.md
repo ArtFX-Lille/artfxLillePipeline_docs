@@ -87,7 +87,10 @@ Every live/VFX movie will use an **ARRI Reveal LUT** to go from Log to Display R
                  (ARRI_LogC4-to-Gamma24_Rec709-D65_v1_65.cube) </figcaption>
 </figure>
 
+<p>
+
 [Download ARRI LogC4 LUTS package here](https://www.google.com/url?q=https://www.arri.com/resource/blob/280728/77e1e29f98a7cd1b8dbf821692d23f07/arri-logc4-lut-package-data.zip&sa=D&source=docs&ust=1762697862374216&usg=AOvVaw3zg1Jm6lKzot0Lsj9lXmgR)
+</p>
 
 ### Setup for VFX Shots (EXR final comp grade version 1)
 
@@ -232,18 +235,18 @@ The folder contains the following :
 
 <p>
 
-Here are all the **display views available** : (the custom ones are highlighted)
+Here are all the **display views available** : *the custom ones are in italics*
 </p>
 
 - Rec.1886 Rec.709 - Display
-  - <span style="background-color: #376489">Live ARRI Reveal</span>
-  - <span style="background-color: #376489">Live ARRI LogC4</span>
-  - <span style="background-color: #376489">Live ARRI Shot</span>
-  - <span style="background-color: #376489">Live ARRI Shot Sequence</span>
-  - <span style="background-color: #376489">Live ARRI Sequence</span>
-  - <span style="background-color: #376489">Live ARRI Movie</span>
-  - <span style="background-color: #376489">Full CG Sequence</span>
-  - <span style="background-color: #376489">Full CG Movie</span>
+  - *Live ARRI Reveal*
+  - *Live ARRI LogC4*
+  - *Live ARRI Shot*
+  - *Live ARRI Shot Sequence*
+  - *Live ARRI Sequence*
+  - *Live ARRI Movie*
+  - *Full CG Sequence*
+  - *Full CG Movie*
   - ACES 1.0 - SDR Video
   - Un-tonne-mapped
   - Raw
@@ -252,14 +255,14 @@ Here are all the **display views available** : (the custom ones are highlighted)
   - Un-tonne-mapped
   - Raw
 - Rec.1886 Rec.2020 - Display
-  - <span style="background-color: #376489">Live ARRI Reveal</span>
+  - *Live ARRI Reveal*
   - ACES 1.0 - SDR Video
   - ACES 1.1 - SDR Video (p3 lim)
   - ACES 1.1 - SDR Video (Rec.709 lim)
   - Un-tonne-mapped
   - Raw
 - P3-DCI - Display
-  - <span style="background-color: #376489">Live ARRI Reveal</span>
+  - *Live ARRI Reveal*
   - ACES 1.0 - SDR Cinema (D60 sim on DCI)
   - ACES 1.1 - SDR Cinema (D65 sim on DCI)
   - Un-tonne-mapped
