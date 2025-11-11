@@ -10,8 +10,8 @@ Once your edit in **DaVinci Resolve** is locked (final version or close to final
 ## Table of Contents
 
 [Preliminary Information](#preliminary-information)<br>
-[I. Convert .MXF to .EXR with Baked Metadata](#i-convert-mxf-to-exr-with-baked-metadata-using-arri-reference-tool-art)<br>
-[II. Replace .MXF with ART .EXRs Using Reconform](#ii-replace-mxf-with-art-exrs-using-reconform)
+[1. Convert .MXF to .EXR with Baked Metadata](#i-convert-mxf-to-exr-with-baked-metadata-using-arri-reference-tool-art)<br>
+[2. Replace .MXF with ART .EXRs Using Reconform](#ii-replace-mxf-with-art-exrs-using-reconform)
 
 
 ## Preliminary Information
@@ -25,7 +25,7 @@ Once your edit in **DaVinci Resolve** is locked (final version or close to final
   - In Substance :
   - In Mari :
 
-## I. Convert MXF to EXR with Baked Metadata Using ARRI Reference Tool (ART)
+## 1. Convert MXF to EXR with Baked Metadata Using ARRI Reference Tool (ART)
 <p>
 
 The first is to export your **ARRI plates** using the **Tristan ARRI Reference Tool Bridge**. The goal is to replace your **timeline .mxf files** with **EXR sequences** that include baked camera metadata for each frame. For now, you can store these files in your **Shooting / OnSetProduction** folder.
@@ -63,7 +63,7 @@ Whenever you manually import external files into your Prism project, use the **â
 
 Once all your **ART EXRs** are exported and organized, you can move on to the next step.
 
-## II. Replace .MXF with ART .EXRs using reconform
+## 2. Replace .MXF with ART .EXRs using reconform
 <p>
 
 In this step, weâ€™ll replace the **original MXF files** in your DaVinci Resolve timeline with the **ART EXR sequences**.
