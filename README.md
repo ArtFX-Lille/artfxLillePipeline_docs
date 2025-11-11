@@ -6,12 +6,12 @@ Centralized long-term documentation (not promotion specific)
 
 This section contains all the documentation regarding general workflow practices, naming conventions etc...
 
+[Color Workflow](workflows/color_workflow/COLOR_WORKFLOW.md)
+
 # Softwares Documentation
 <p>
 
 In this section, you will get all the documentation regarding workflow specific to each softwares and custom tools made by the students.
-
-[Color Workflow](workflows/color_workflow/COLOR_WORKFLOW.md)
 
 ## DaVinci Resolve Studio
 
