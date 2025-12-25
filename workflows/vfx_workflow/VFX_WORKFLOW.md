@@ -337,3 +337,62 @@ To update the timeline resolution : <br>
 ### 4.7 Perform Scene Cut Detection
 
 - Lock all tracks **except the CUT track**.
+
+<img src="assets/images/daVinci_singleRefLock.jpg" width=700>
+
+- Then in **Timeline → Detect Scene Cuts**
+
+<img src="assets/images/daVinci_detectSceneCuts.jpg" width=300>
+
+DaVinci Resolve will automatically slice the single reference plate into individuals shots.
+
+<img src="assets/images/daVinci_refPlate_autoCut.jpg" width=700>
+
+Review all cuts to make sure they are correct. When approved, delete all the other tracks.
+
+<img src="assets/images/daVinci_singelRefCuttedFinal.jpg" width=700>
+
+### 4.8 Export individual References Plates
+
+In the delivery page, use the preset `individualReference_preset` 
+<img src="assets/images/indivRefPlate_preset.jpg">
+
+**Location setup :**
+
+In your project directory : <br>
+
+    06_Edit/
+      referencePlate/
+        individualReferenceClip/
+          v0001/
+
+<img src="assets/images/daVinci_indivRefPlateOutFolder.jpg" width=700>
+
+Render all the individual reference shots.
+
+<img src="assets/images/daVinci_indivRefPlateOutFiles.jpg" width=700>
+
+### 4.9 Ingest the Reference Plates in Prism
+
+For each shot :
+
+- Open the **Media** tab of the shot in Prism
+- In the **Identifiers** tab → Right-click → **Ingest Media**
+
+<img src="assets/images/prism_ingestMediaClick.jpg" width=700>
+
+- Assign the identifier according to naming conventions : `ref_plate_rec709`
+- Drag and drop the correct `.mov` into the **Media Path**.
+
+<img src="assets/images/prism_ingestRefPlate.jpg">
+
+Then click **Create**.
+
+<img src="assets/images/prism_refPlateIngestOut.jpg" width=700>
+
+The plate is now correctly ingested in the Prism pipeline and can be **published to ShotGrid**, inside the **Department → ref**. <br>
+
+You may delete all the **individual reference .mov files** to save storage.
+**Do NOT delete the v0001 folder** - it must remain as a record, in case a `v0002` is ever needed.
+
+<img src="assets/images/refPlate_delFiles.jpg" width=700>
